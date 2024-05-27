@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#dino {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 200px;
+  height: 450px;
+}
+#obstacle {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  /* animation: move 2s infinite linear; */
+}
+
+.scoreall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+@keyframes move {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}

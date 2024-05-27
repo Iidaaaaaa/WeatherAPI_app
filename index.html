@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <select id="prefecture-select">
+      <option value="230000">愛知県</option>
+      <option value="210000">岐阜県</option>
+      <option value="240000">三重県</option>
+      <option value="220000">静岡県</option>
+    </select>
+
+    <button id="start-button">ゲーム開始</button>
+
+    <div class="scoreall">
+      <p class="score">000</p>
+      <span>＜</span>
+      <p class="data"></p>
+    </div>
+
+    <div id="game">
+      <img id="dino" src="./oki.png" alt="" />
+
+      <img id="obstacle" src="./moruka.png" alt="" />
+    </div>
+
+    <!-- <audio class="startvoice" src="./start.mp3"></audio> -->
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/weather.js" type="module"></script>
+  </body>
+</html>
